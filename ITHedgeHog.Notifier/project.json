@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "ITHedgeHog.Notifier Console Application",
+  "authors": [ "Daniel Taylor" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.Net.Http": "2.2.22"
+  },
+
+  "commands": {
+    "ITHedgeHog.Notifier": "ITHedgeHog.Notifier"
+  },
+
+  "frameworks": {
+    "dnx452": {
+      "dependencies": {
+        "CommandLineParser": "1.9.71"
+      }
+    }
+  }
+}
